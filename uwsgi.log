@@ -1,0 +1,11 @@
+*** Starting uWSGI 2.0.19.1-debian (64bit) on [Thu Nov 16 07:25:43 2023] ***
+compiled with version: 10.2.1 20210110 on 11 June 2021 09:08:33
+os: Linux-5.10.0-26-cloud-amd64 #1 SMP Debian 5.10.197-1 (2023-09-29)
+nodename: instance-2
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/yimai
+writing pidfile to /home/yimai/codeploy/project1006/uwsgi.pid
+open("/home/yimai/codeploy/project1006/uwsgi.pid"): No such file or directory [core/utils.c line 3628]

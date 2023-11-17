@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block header %}
+
+{% endblock header %}
+
+{% block content %}
+{% for item in object_list %}
+<div class="alert alert-{{item.priority}}" role="alert">
+  <p>{{ item.title }}</p>
+  <p>{{ item.contents }}</p>
+</div>
+{% endfor %}
+
+<div class= "container" >
+<a href="{% url 'create' %}" class="btn btn-info  " tabindex="-1" role="button" aria-disabled="true">新規作成</a>
+</div>
+{% endblock content %}
